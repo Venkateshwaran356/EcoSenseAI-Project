@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import VisionHub from './components/VisionHub/VisionHub';
@@ -105,3 +106,17 @@ export default function App() {
     </div>
   );
 }
+=======
+import React from 'react';
+import Dashboard from './components/Dashboard';
+
+function App() {
+  return (
+    <div className="App">
+      <Dashboard />
+    </div>
+  );
+}
+
+export default App;
+>>>>>>> 615b9ce114946ccb4261eff11e55b6e89fd6faf8
