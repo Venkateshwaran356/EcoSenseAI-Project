@@ -1,4 +1,26 @@
 {
+<<<<<<< HEAD
+  "name": "pose-headcount-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Pose Estimation and Head Count System with MongoDB and Work Submissions",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["pose-estimation", "head-count", "mongodb", "express", "ai"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+=======
   "name": "task-manager-backend",
   "version": "1.0.0",
   "description": "Task Manager API",
@@ -9,5 +31,6 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
+>>>>>>> 615b9ce114946ccb4261eff11e55b6e89fd6faf8
   }
 }
