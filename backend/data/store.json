@@ -1,0 +1,90 @@
+{
+  "submissions": [
+    {
+      "title": "AI Vision Safety Audit - Sector 4",
+      "submitterName": "Dr. Elena Vance",
+      "category": "Workplace Safety",
+      "priority": "High",
+      "description": "Real-time posture and head count inspection passed.",
+      "headCount": 5,
+      "postureScore": 96,
+      "metrics": {
+        "elbowAngle": 148,
+        "kneeAngle": 172,
+        "torsoTilt": 4,
+        "postureStatus": "Optimal Ergonomics"
+      },
+      "snapshotUrl": "/uploads/sample_snapshot.png",
+      "status": "Approved",
+      "reviewerNotes": "Verified and Approved by Chief Inspector.",
+      "createdAt": "2026-09-23T04:26:40.538Z",
+      "_id": "sub_1790137600538_gc9zh",
+      "updatedAt": "2026-09-23T04:26:40.590Z"
+    },
+    {
+      "_id": "sub_demo_01",
+      "title": "Morning Shift Safety & Head Count Audit",
+      "submitterName": "Alex Rivera",
+      "category": "Workplace Safety",
+      "priority": "High",
+      "description": "Verified entry gate crowd density and posture compliance for warehouse staff.",
+      "headCount": 6,
+      "postureScore": 92,
+      "metrics": {
+        "elbowAngle": 142,
+        "kneeAngle": 168,
+        "torsoTilt": 8,
+        "postureStatus": "Good - Upright"
+      },
+      "snapshotUrl": "/uploads/sample_snapshot.png",
+      "status": "Approved",
+      "reviewerNotes": "All safety limits adhered to. Good posture compliance.",
+      "createdAt": "2026-09-23T02:13:14.417Z"
+    },
+    {
+      "_id": "sub_demo_02",
+      "title": "Assembly Station Posture & Ergonomics Check",
+      "submitterName": "Sarah Chen",
+      "category": "Ergonomics Inspection",
+      "priority": "Medium",
+      "description": "Detected excessive slouching and bending at packing station 3.",
+      "headCount": 2,
+      "postureScore": 68,
+      "metrics": {
+        "elbowAngle": 85,
+        "kneeAngle": 135,
+        "torsoTilt": 38,
+        "postureStatus": "Warning - Severe Slouch"
+      },
+      "snapshotUrl": "/uploads/sample_snapshot.png",
+      "status": "Under Review",
+      "reviewerNotes": "Ergonomic footrest and desk height adjustment recommended.",
+      "createdAt": "2026-09-22T23:13:14.417Z"
+    }
+  ],
+  "analytics": [
+    {
+      "timestamp": "2026-09-23T04:08:14.417Z",
+      "currentCount": 4,
+      "totalIn": 12,
+      "totalOut": 8,
+      "postureScoreAvg": 88,
+      "peakCount": 7
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alt_01",
+      "timestamp": "2026-09-23T03:43:14.417Z",
+      "type": "OCCUPANCY_WARNING",
+      "message": "Room capacity reached 85% of limit (6/8 people)",
+      "level": "warning"
+    }
+  ],
+  "settings": {
+    "occupancyLimit": 10,
+    "confidenceThreshold": 0.45,
+    "alertSoundEnabled": true,
+    "lineCrossingY": 0.5
+  }
+}
